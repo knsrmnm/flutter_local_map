@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_local_map/src/screens/account_screen.dart';
+import 'package:flutter_local_map/src/screens/favorite_screen.dart';
 import 'package:flutter_local_map/src/screens/home_screen.dart';
 import 'package:flutter_local_map/src/screens/map_screen.dart';
 import 'package:flutter_local_map/src/screens/search_screen.dart';
@@ -43,7 +43,7 @@ class _LocalMapAppState extends State<LocalMapApp> {
     HomeScreen(),
     SearchScreen(),
     MapScreen(),
-    AccountScreen()
+    FavoriteScreen()
   ];
 
   int _selectedIndex = 0;
